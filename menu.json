@@ -1,0 +1,590 @@
+[
+  {
+    "act_code": "001",
+    "act_table": "DistanceRun",
+    "act_name_en": "Distance Run",
+    "act_name_zh": "長跑",
+    "act_name_cn": "长跑"
+  },
+  {
+    "act_code": "004",
+    "act_table": "LifeSaving",
+    "act_name_en": "Life Saving",
+    "act_name_zh": "拯溺",
+    "act_name_cn": "拯溺"
+  },
+  {
+    "act_code": "007",
+    "act_table": "Swimming",
+    "act_name_en": "Swimming",
+    "act_name_zh": "游泳",
+    "act_name_cn": "游泳"
+  },
+  {
+    "act_code": "009",
+    "act_table": "TrackField",
+    "act_name_en": "Track Field",
+    "act_name_zh": "田徑",
+    "act_name_cn": "田径"
+  },
+  {
+    "act_code": "011",
+    "act_table": "AerobicDance",
+    "act_name_en": "Aerobic Dance",
+    "act_name_zh": "健體舞",
+    "act_name_cn": "健体舞"
+  },
+  {
+    "act_code": "012",
+    "act_table": "Baduanjin",
+    "act_name_en": "Baduanjin",
+    "act_name_zh": "八段錦",
+    "act_name_cn": "八段锦"
+  },
+  {
+    "act_code": "015",
+    "act_table": "ChildrenDance",
+    "act_name_en": "Children Dance",
+    "act_name_zh": "兒童舞",
+    "act_name_cn": "儿童舞"
+  },
+  {
+    "act_code": "016",
+    "act_table": "ChineseDance",
+    "act_name_en": "Chinese Dance",
+    "act_name_zh": "中國舞",
+    "act_name_cn": "中国舞"
+  },
+  {
+    "act_code": "017",
+    "act_table": "DanceNight",
+    "act_name_en": "Dance Night / Dance Party",
+    "act_name_zh": "舞蹈晚會/舞會",
+    "act_name_cn": "舞蹈晚会/舞会"
+  },
+  {
+    "act_code": "018",
+    "act_table": "FitnessExercise",
+    "act_name_en": "Fitness Exercise",
+    "act_name_zh": "徒手健體",
+    "act_name_cn": "徒手健体"
+  },
+  {
+    "act_code": "019",
+    "act_table": "Fitness",
+    "act_name_en": "Fitness (Multi-gym)",
+    "act_name_zh": "器械健體",
+    "act_name_cn": "器械健体"
+  },
+  {
+    "act_code": "020",
+    "act_table": "FitnessPractice",
+    "act_name_en": "Fitness Practice Scheme",
+    "act_name_zh": "健體練習計劃",
+    "act_name_cn": "健体练习计划"
+  },
+  {
+    "act_code": "021",
+    "act_table": "GymforAll",
+    "act_name_en": "Gymnastics/Gymnastics for All",
+    "act_name_zh": "體操/普及體操",
+    "act_name_cn": "体操/普及体操"
+  },
+  {
+    "act_code": "022",
+    "act_table": "HydroFitness",
+    "act_name_en": "Hydro Fitness",
+    "act_name_zh": "水中健體",
+    "act_name_cn": "水中健体"
+  },
+  {
+    "act_code": "024",
+    "act_table": "Jazz",
+    "act_name_en": "Jazz",
+    "act_name_zh": "爵士舞",
+    "act_name_cn": "爵士舞"
+  },
+  {
+    "act_code": "026",
+    "act_table": "Judo",
+    "act_name_en": "Judo",
+    "act_name_zh": "柔道",
+    "act_name_cn": "柔道"
+  },
+  {
+    "act_code": "030",
+    "act_table": "ModernDance",
+    "act_name_en": "Modern Dance",
+    "act_name_zh": "現代舞",
+    "act_name_cn": "现代舞"
+  },
+  {
+    "act_code": "031",
+    "act_table": "MultiDance",
+    "act_name_en": "Multi-dance",
+    "act_name_zh": "多項舞蹈",
+    "act_name_cn": "多项舞蹈"
+  },
+  {
+    "act_code": "033",
+    "act_table": "OrientalDance",
+    "act_name_en": "Oriental Dance",
+    "act_name_zh": "東方舞",
+    "act_name_cn": "东方舞"
+  },
+  {
+    "act_code": "035",
+    "act_table": "SocialDance",
+    "act_name_en": "Social Dance",
+    "act_name_zh": "社交舞",
+    "act_name_cn": "社交舞"
+  },
+  {
+    "act_code": "037",
+    "act_table": "TaiChi",
+    "act_name_en": "Tai Chi",
+    "act_name_zh": "太極拳",
+    "act_name_cn": "太极拳"
+  },
+  {
+    "act_code": "038",
+    "act_table": "TaiChiSword",
+    "act_name_en": "Tai Chi Sword",
+    "act_name_zh": "太極劍",
+    "act_name_cn": "太极剑"
+  },
+  {
+    "act_code": "042",
+    "act_table": "WesternFolkDance",
+    "act_name_en": "Western Folk Dance",
+    "act_name_zh": "西方土風舞",
+    "act_name_cn": "西方土风舞"
+  },
+  {
+    "act_code": "043",
+    "act_table": "Wushu",
+    "act_name_en": "Wushu",
+    "act_name_zh": "武術",
+    "act_name_cn": "武术"
+  },
+  {
+    "act_code": "044",
+    "act_table": "Yoga",
+    "act_name_en": "Yoga",
+    "act_name_zh": "瑜伽",
+    "act_name_cn": "瑜伽"
+  },
+  {
+    "act_code": "045",
+    "act_table": "Archery",
+    "act_name_en": "Archery",
+    "act_name_zh": "箭藝",
+    "act_name_cn": "箭艺"
+  },
+  {
+    "act_code": "046",
+    "act_table": "Badminton",
+    "act_name_en": "Badminton",
+    "act_name_zh": "羽毛球",
+    "act_name_cn": "羽毛球"
+  },
+  {
+    "act_code": "047",
+    "act_table": "Chess",
+    "act_name_en": "Chess",
+    "act_name_zh": "棋藝",
+    "act_name_cn": "棋艺"
+  },
+  {
+    "act_code": "048",
+    "act_table": "Cycling",
+    "act_name_en": "Cycling",
+    "act_name_zh": "單車",
+    "act_name_cn": "单车"
+  },
+  {
+    "act_code": "050",
+    "act_table": "Fencing",
+    "act_name_en": "Fencing",
+    "act_name_zh": "劍擊",
+    "act_name_cn": "剑击"
+  },
+  {
+    "act_code": "052",
+    "act_table": "RollerSkating",
+    "act_name_en": "Roller Skating",
+    "act_name_zh": "滾軸溜冰",
+    "act_name_cn": "滚轴溜冰"
+  },
+  {
+    "act_code": "053",
+    "act_table": "IndoorShortMatBowling",
+    "act_name_en": "Indoor Short Mat Bowling",
+    "act_name_zh": "室內短墊滾球",
+    "act_name_cn": "室內短垫滚球"
+  },
+  {
+    "act_code": "054",
+    "act_table": "LawnBowls",
+    "act_name_en": "Lawn Bowls",
+    "act_name_zh": "草地滾球",
+    "act_name_cn": "草地滚球"
+  },
+  {
+    "act_code": "055",
+    "act_table": "MiniTennis",
+    "act_name_en": "Mini-tennis",
+    "act_name_zh": "小型網球",
+    "act_name_cn": "小型网球"
+  },
+  {
+    "act_code": "057",
+    "act_table": "Shooting",
+    "act_name_en": "Shooting",
+    "act_name_zh": "射擊",
+    "act_name_cn": "射击"
+  },
+  {
+    "act_code": "059",
+    "act_table": "Squash",
+    "act_name_en": "Squash",
+    "act_name_zh": "壁球",
+    "act_name_cn": "壁球"
+  },
+  {
+    "act_code": "060",
+    "act_table": "TableTennis",
+    "act_name_en": "Table Tennis",
+    "act_name_zh": "乒乓球",
+    "act_name_cn": "乒乓球"
+  },
+  {
+    "act_code": "062",
+    "act_table": "Tennis",
+    "act_name_en": "Tennis",
+    "act_name_zh": "網球",
+    "act_name_cn": "网球"
+  },
+  {
+    "act_code": "063",
+    "act_table": "Canoeing",
+    "act_name_en": "Canoeing",
+    "act_name_zh": "獨木舟",
+    "act_name_cn": "独木舟"
+  },
+  {
+    "act_code": "065",
+    "act_table": "DayEveningCamp",
+    "act_name_en": "Day Camp / Evening Camp",
+    "act_name_zh": "日營 / 黃昏營",
+    "act_name_cn": "日营 / 黄昏营"
+  },
+  {
+    "act_code": "068",
+    "act_table": "Golf",
+    "act_name_en": "Golf",
+    "act_name_zh": "高爾夫球",
+    "act_name_cn": "高尔夫球"
+  },
+  {
+    "act_code": "069",
+    "act_table": "Hiking",
+    "act_name_en": "Hiking",
+    "act_name_zh": "遠足",
+    "act_name_cn": "远足"
+  },
+  {
+    "act_code": "070",
+    "act_table": "HorseRiding",
+    "act_name_en": "Horse Riding",
+    "act_name_zh": "騎馬",
+    "act_name_cn": "骑马"
+  },
+  {
+    "act_code": "072",
+    "act_table": "LandExcursion",
+    "act_name_en": "Land Excursion",
+    "act_name_zh": "陸上暢遊",
+    "act_name_cn": "陆上畅游"
+  },
+  {
+    "act_code": "073",
+    "act_table": "Orienteering",
+    "act_name_en": "Orienteering",
+    "act_name_zh": "野外定向",
+    "act_name_cn": "野外定向"
+  },
+  {
+    "act_code": "074",
+    "act_table": "ResidentialCamp",
+    "act_name_en": "Residential Camp",
+    "act_name_zh": "宿營",
+    "act_name_cn": "宿营"
+  },
+  {
+    "act_code": "077",
+    "act_table": "Sailing",
+    "act_name_en": "Sailing",
+    "act_name_zh": "風帆",
+    "act_name_cn": "风帆"
+  },
+  {
+    "act_code": "078",
+    "act_table": "SandSculpture",
+    "act_name_en": "Sand Sculpture",
+    "act_name_zh": "堆沙",
+    "act_name_cn": "堆沙"
+  },
+  {
+    "act_code": "081",
+    "act_table": "SportClimbing",
+    "act_name_en": "Sport Climbing",
+    "act_name_zh": "運動攀登",
+    "act_name_cn": "运动攀登"
+  },
+  {
+    "act_code": "082",
+    "act_table": "TentCamp",
+    "act_name_en": "Tent Camp",
+    "act_name_zh": "露營",
+    "act_name_cn": "露营"
+  },
+  {
+    "act_code": "084",
+    "act_table": "Windsurfing",
+    "act_name_en": "Windsurfing",
+    "act_name_zh": "滑浪風帆",
+    "act_name_cn": "滑浪风帆"
+  },
+  {
+    "act_code": "085",
+    "act_table": "Baseball",
+    "act_name_en": "Baseball",
+    "act_name_zh": "棒球",
+    "act_name_cn": "棒球"
+  },
+  {
+    "act_code": "086",
+    "act_table": "Basketball",
+    "act_name_en": "Basketball",
+    "act_name_zh": "籃球",
+    "act_name_cn": "篮球"
+  },
+  {
+    "act_code": "087",
+    "act_table": "Cricket",
+    "act_name_en": "Cricket",
+    "act_name_zh": "板球",
+    "act_name_cn": "板球"
+  },
+  {
+    "act_code": "088",
+    "act_table": "Football",
+    "act_name_en": "Football",
+    "act_name_zh": "足球",
+    "act_name_cn": "足球"
+  },
+  {
+    "act_code": "089",
+    "act_table": "Gateball",
+    "act_name_en": "Gateball",
+    "act_name_zh": "門球",
+    "act_name_cn": "门球"
+  },
+  {
+    "act_code": "091",
+    "act_table": "Hockey",
+    "act_name_en": "Hockey",
+    "act_name_zh": "曲棍球",
+    "act_name_cn": "曲棍球"
+  },
+  {
+    "act_code": "094",
+    "act_table": "MiniSoccer",
+    "act_name_en": "Mini-soccer",
+    "act_name_zh": "小型足球",
+    "act_name_cn": "小型足球"
+  },
+  {
+    "act_code": "097",
+    "act_table": "Rugby",
+    "act_name_en": "Rugby",
+    "act_name_zh": "欖球",
+    "act_name_cn": "榄球"
+  },
+  {
+    "act_code": "099",
+    "act_table": "Volleyball",
+    "act_name_en": "Volleyball",
+    "act_name_zh": "排球",
+    "act_name_cn": "排球"
+  },
+  {
+    "act_code": "101",
+    "act_table": "Carnival",
+    "act_name_en": "Carnival",
+    "act_name_zh": "嘉年華",
+    "act_name_cn": "嘉年华"
+  },
+  {
+    "act_code": "102",
+    "act_table": "FunGames",
+    "act_name_en": "Fun Games",
+    "act_name_zh": "體趣遊戲",
+    "act_name_cn": "体趣游戏"
+  },
+  {
+    "act_code": "103",
+    "act_table": "Horticulture",
+    "act_name_en": "Horticulture",
+    "act_name_zh": "園藝",
+    "act_name_cn": "园艺"
+  },
+  {
+    "act_code": "104",
+    "act_table": "Multi-sports",
+    "act_name_en": "Multi-sports",
+    "act_name_zh": "多項體育",
+    "act_name_cn": "多项体育"
+  },
+  {
+    "act_code": "105",
+    "act_table": "PerformanceDemo",
+    "act_name_en": "Performance &amp; Demonstration",
+    "act_name_zh": "表演及示範",
+    "act_name_cn": "表演及示范"
+  },
+  {
+    "act_code": "106",
+    "act_table": "PottedSports",
+    "act_name_en": "Potted Sports",
+    "act_name_zh": "遊戲日",
+    "act_name_cn": "游戏日"
+  },
+  {
+    "act_code": "110",
+    "act_table": "QualiWalk",
+    "act_name_en": "QualiWalk",
+    "act_name_zh": "優質健行",
+    "act_name_cn": "优质健行"
+  },
+  {
+    "act_code": "111",
+    "act_table": "Go",
+    "act_name_en": "Go",
+    "act_name_zh": "圍棋",
+    "act_name_cn": "围棋"
+  },
+  {
+    "act_code": "112",
+    "act_table": "ContractBridge",
+    "act_name_en": "Contract Bridge",
+    "act_name_zh": "橋牌",
+    "act_name_cn": "桥牌"
+  },
+  {
+    "act_code": "116",
+    "act_table": "BirdWatching",
+    "act_name_en": "Bird Watching",
+    "act_name_zh": "觀鳥",
+    "act_name_cn": "观鸟"
+  },
+  {
+    "act_code": "118",
+    "act_table": "MiscellaneousAct",
+    "act_name_en": "Miscellaneous Activities",
+    "act_name_zh": "其他活動",
+    "act_name_cn": "其他活动"
+  },
+  {
+    "act_code": "122",
+    "act_table": "CommunityGardenProg",
+    "act_name_en": "Community Garden Programme",
+    "act_name_zh": "社區園圃計劃",
+    "act_name_cn": "社区园圃计划"
+  },
+  {
+    "act_code": "130",
+    "act_table": "AmericanPool",
+    "act_name_en": "American Pool",
+    "act_name_zh": "美式桌球",
+    "act_name_cn": "美式桌球"
+  },
+  {
+    "act_code": "135",
+    "act_table": "FitnessChildren)",
+    "act_name_en": "Fitness (Children)",
+    "act_name_zh": "兒童健體",
+    "act_name_cn": "儿童健体"
+  },
+  {
+    "act_code": "136",
+    "act_table": "HealthyElderly",
+    "act_name_en": "Healthy Elderly Scheme",
+    "act_name_zh": "活力長者計劃",
+    "act_name_cn": "活力长者计划"
+  },
+  {
+    "act_code": "137",
+    "act_table": "BriefingFitness",
+    "act_name_en": "Briefing on Proper Ways to Use Fitness Equipment",
+    "act_name_zh": "正確使用健身室設施簡介會",
+    "act_name_cn": "正确使用健身室设施简介会"
+  },
+  {
+    "act_code": "140",
+    "act_table": "PlayLeadership",
+    "act_name_en": "Play Leadership Scheme",
+    "act_name_zh": "小領袖計劃",
+    "act_name_cn": "小领袖计划"
+  },
+  {
+    "act_code": "141",
+    "act_table": "StressManagement",
+    "act_name_en": "Stress Management and Physical Relaxation",
+    "act_name_zh": "壓力處理與鬆弛技巧",
+    "act_name_cn": "压力处理与松弛技巧"
+  },
+  {
+    "act_code": "156",
+    "act_table": "DragonBoat",
+    "act_name_en": "Dragon Boat",
+    "act_name_zh": "龍舟",
+    "act_name_cn": "龙舟"
+  },
+  {
+    "act_code": "157",
+    "act_table": "WaterSafetyBaby",
+    "act_name_en": "Water Safety Course for Baby",
+    "act_name_zh": "幼兒水上安全班",
+    "act_name_cn": "幼儿水上安全班"
+  },
+  {
+    "act_code": "160",
+    "act_table": "Snooker",
+    "act_name_en": "Snooker",
+    "act_name_zh": "英式桌球",
+    "act_name_cn": "英式桌球"
+  },
+  {
+    "act_code": "170",
+    "act_table": "FitnessWalking",
+    "act_name_en": "Fitness Walking Briefing Session",
+    "act_name_zh": "健步行簡介會",
+    "act_name_cn": "健步行简介会"
+  },
+  {
+    "act_code": "171",
+    "act_table": "BodyMindStretch",
+    "act_name_en": "Body-Mind Stretch",
+    "act_name_zh": "身心伸展",
+    "act_name_cn": "身心伸展"
+  },
+  {
+    "act_code": "180",
+    "act_table": "Ultimate",
+    "act_name_en": "Ultimate",
+    "act_name_zh": "飛盤",
+    "act_name_cn": "飞盘"
+  }
+]

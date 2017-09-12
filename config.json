@@ -1,0 +1,27 @@
+{
+  "storage":{
+    "file":false,
+    "mysql":false,
+    "mongo":true
+  },
+  "storage_file":{
+    "path":""
+  },
+  "mysql":{
+    "host":"xxx.xxx.xxx.xxx",
+    "port":3306,
+    "database":"lscd",
+    "username":"root",
+    "password":"xxxxx"
+  },"mongo":{
+    "host":"192.168.1.104",
+    "port":27017,
+    "database":"lscd"
+  },
+  "lang":{
+    "tc":"b5",
+    "sc":"b5&sc=sc",
+    "en":"en"
+  }
+}
+
