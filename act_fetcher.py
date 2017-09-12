@@ -1,21 +1,23 @@
-import sys
 import urllib
 import re
 import json
 import Mongo
 import os.path
+import mySQL
 
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
 # config
 storage_file = False
+storage_mysql = False
 storage_mongo = False
 storage_dir = os.path.dirname(os.path.realpath(__file__))+"/"
 
 with open('config.json') as json_data:
 	config = json.load(json_data)
 	storage_file = config["storage"]["file"]
+	storage_mysql = config["storage"]["mysql"]
 	storage_mongo = config["storage"]["mongo"]
 	if config["storage_file"]["path"] != "" :
 		storage_dir = config["storage_file"]["path"]
@@ -171,15 +173,20 @@ with open('menu.json') as json_data:
 					#save a record
 					activity_json = {'id': data[0],'class': data[1],'name': data[2],'startdate': data[3],'enddate': data[4],'starttime':data[5],'endtime':data[6],'weekday':data[7],'location': data[8],'age': data[9],'fee': data[10],'quota': data[11],'quota_remain':data[12],'enrolment_startdate': data[13],'enrolment_enddate': data[14],'balloting': data[15],'enrolment_remain_startdate': data[16],'enrolment_remain_enddate': data[17],'created_at': data[18]}
 					storage_file_json.append(activity_json);
+					#mongodb
 					if storage_mongo :
 						Mongo.save(act_table,activity_json,{'id': data[0]})
-					data=[]
-
-
+					#mysql
+					if storage_mysql :
+						success=mySQL.insert(act_table,data)
+						if not success:
+							mySQL.update(act_table,data,"id = '%s'" % data[0])
+					data = []
 					content = content[end+5:]
 
 				i+=1
 			m=month+1
+		#filre storage
 		if storage_file :
 			filename=storage_dir+act_table+".json"
 			if os.path.exists(filename):
