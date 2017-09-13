@@ -1,18 +1,18 @@
 {
   "storage":{
     "file":false,
-    "mysql":false,
-    "mongo":true
+    "mysql":true,
+    "mongo":false
   },
   "storage_file":{
     "path":""
   },
   "mysql":{
-    "host":"xxx.xxx.xxx.xxx",
+    "host":"192.168.1.104",
     "port":3306,
     "database":"lscd",
     "username":"root",
-    "password":"xxxxx"
+    "password":"Racine"
   },"mongo":{
     "host":"192.168.1.104",
     "port":27017,
