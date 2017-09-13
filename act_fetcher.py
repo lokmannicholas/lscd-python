@@ -23,7 +23,7 @@ with open('config.json') as json_data:
 		storage_dir = config["storage_file"]["path"]
 # mysql
 if storage_mysql:
-	mySQL.dbConnect()
+	mySQL.dbInit()
 
 #months
 date_after_month = datetime.today()+ relativedelta(months=1)
@@ -177,16 +177,54 @@ with open('menu.json') as json_data:
 						column_count+=1
 
 					#save a record
-					activity_json = {'id': data[0],'class': data[1],'name': data[2],'startdate': data[3],'enddate': data[4],'starttime':data[5],'endtime':data[6],'weekday':data[7],'location': data[8],'age': data[9],'fee': data[10],'quota': data[11],'quota_remain':data[12],'enrolment_startdate': data[13],'enrolment_enddate': data[14],'balloting': data[15],'enrolment_remain_startdate': data[16],'enrolment_remain_enddate': data[17],'created_at': data[18]}
+					activity_json = {}
+					if data[0] != "" :
+						activity_json["id"] = data[0]
+					if data[1] != "" :
+						activity_json["class"] = data[1]
+					if data[2] != "" :
+						activity_json["name"] = data[2]
+					if data[3] != "" :
+						activity_json["startdate"] = data[3]
+					if data[4] != "" :
+						activity_json["enddate"] = data[4]
+					if data[5] != "" :
+						activity_json["starttime"] = data[5]
+					if data[6] != "" :
+						activity_json["endtime"] = data[6]
+					if data[7] != "" :
+						activity_json["weekday"] = data[7]
+					if data[8] != "" :
+						activity_json["location"] = data[8]
+					if data[9] != "" :
+						activity_json["age"] = data[9]
+					if data[10] != "" :
+						activity_json["fee"] = data[10]
+					if data[11] != "" :
+						activity_json["quota"] = data[11]
+					if data[12] != "" :
+						activity_json["quota_remain"] = data[12]
+					if data[13] != "" :
+						activity_json["enrolment_startdate"] = data[13]
+					if data[14] != "" :
+						activity_json["enrolment_enddate"] = data[14]
+					if data[15] != "" :
+						activity_json["balloting"] = data[15]
+					if data[16] != "" :
+						activity_json["enrolment_remain_startdate"] = data[16]
+					if data[17] != "" :
+						activity_json["enrolment_remain_enddate"] = data[17]
+					if data[18] != "" :
+						activity_json["created_at"] = data[18]
+
 					storage_file_json.append(activity_json);
 					#mongodb
 					if storage_mongo :
 						Mongo.save(act_table,activity_json,{'id': data[0]})
 					#mysql
 					if storage_mysql :
-						success=mySQL.insert(act_table,data)
-						if not success:
-							mySQL.update(act_table,data,"id = '%s'" % data[0])
+						success=mySQL.upsert(act_table,activity_json)
+
 					data = []
 					content = content[end+5:]
 
