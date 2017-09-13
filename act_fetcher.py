@@ -21,6 +21,9 @@ with open('config.json') as json_data:
 	storage_mongo = config["storage"]["mongo"]
 	if config["storage_file"]["path"] != "" :
 		storage_dir = config["storage_file"]["path"]
+# mysql
+if storage_mysql:
+	mySQL.dbConnect()
 
 #months
 date_after_month = datetime.today()+ relativedelta(months=1)
@@ -39,6 +42,9 @@ with open('menu.json') as json_data:
 		#json file
 		storage_file_json=[]
 		print "activity :" + act_table
+		# mysql
+		if storage_mysql:
+			mySQL.setTable(act_table)
 		# for m in range(startMonth,endMonth):
 		for m in range(0,len(delta_month)):
 			month = int(delta_month[m].month)
