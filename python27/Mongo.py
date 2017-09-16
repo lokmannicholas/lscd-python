@@ -17,8 +17,7 @@ def dbConnect():
 	global db
 	global cursor
 	client = MongoClient(host,port)
-    	db = client.lscd
-	collection = db.database
+	db = client[database]
 	cursor = 1
 
 def getAllData(table):

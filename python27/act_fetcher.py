@@ -1,9 +1,9 @@
 import urllib
 import re
 import json
-import Mongo
+from python27 import Mongo
 import os.path
-import mySQL
+from python27 import mySQL
 
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
